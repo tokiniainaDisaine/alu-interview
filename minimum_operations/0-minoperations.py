@@ -10,8 +10,6 @@ def minOperations(n):
     :param n:
     :return:
     """
-    n = abs(n)
-    
     if n <= 1:
         return 0
     factors = []
