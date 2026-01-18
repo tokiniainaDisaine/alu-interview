@@ -10,8 +10,10 @@ def minOperations(n):
     :param n:
     :return:
     """
+    n = abs(n)
+    
     if n <= 1:
-        return []
+        return 0
     factors = []
     i = 2
     while i * i <= n:
