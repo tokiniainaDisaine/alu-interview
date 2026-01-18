@@ -1,6 +1,15 @@
 #!/usr/bin/python3
+"""
+Doc
+"""
+
 
 def minOperations(n):
+    """
+    Module doc
+    :param n:
+    :return:
+    """
     if n <= 1:
         return []
     factors = []
