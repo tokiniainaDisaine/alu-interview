@@ -25,7 +25,7 @@ def rain(walls):
 
     num_of_zeros.pop(0)
 
-    for i in len(num_of_walls):
+    for i in range(len(num_of_walls)):
         j = min(i, (i + 1)) # the highest water elevation
         height = num_of_walls[j]
         length = num_of_zeros[i]
